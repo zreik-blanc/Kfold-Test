@@ -114,6 +114,7 @@ The model is evaluated using k-fold cross-validation with the following metrics:
 
 ```
 ├── Machine.py              # Main script
+├── Requirements.txt        # Requirements
 ├── train.csv               # Training dataset
 ├── test.csv                # Test dataset
 ├── submission.csv          # Generated predictions
