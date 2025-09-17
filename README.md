@@ -113,11 +113,11 @@ The model is evaluated using k-fold cross-validation with the following metrics:
 ## File Structure
 
 ```
-├── Machine.py    # Main script
+├── Machine.py              # Main script
 ├── train.csv               # Training dataset
 ├── test.csv                # Test dataset
 ├── submission.csv          # Generated predictions
-└── README.md              # Project documentation
+└── README.md               # Project documentation
 ```
 
 ## Key Functions
@@ -143,11 +143,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Kaggle for providing the Titanic dataset
 - PyTorch team for the deep learning framework
 - Scikit-learn for preprocessing and evaluation utilities
-
-## Future Improvements
-
-- [ ] Hyperparameter tuning with grid search
-- [ ] Ensemble methods integration
-- [ ] Advanced feature engineering
-- [ ] Model interpretability analysis
-- [ ] Automated model selection
