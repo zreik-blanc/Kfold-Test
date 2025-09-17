@@ -83,7 +83,7 @@ pip install -r requirements.txt
 Run the main script to train the model and generate predictions:
 
 ```bash
-python titanic_prediction.py
+python Machine.py
 ```
 
 The script will:
@@ -113,7 +113,7 @@ The model is evaluated using k-fold cross-validation with the following metrics:
 ## File Structure
 
 ```
-├── titanic_prediction.py    # Main script
+├── Machine.py    # Main script
 ├── train.csv               # Training dataset
 ├── test.csv                # Test dataset
 ├── submission.csv          # Generated predictions
